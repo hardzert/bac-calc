@@ -1,0 +1,453 @@
+.notecc{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    grid-template-rows: repeat(11,1fr);
+
+}
+
+.notecc > div {
+    padding: 1% 0; 
+}
+
+.notecc > div > input {
+        height: 100%;
+        line-height : 100%;
+        border-style: none;
+        text-align: center;
+        color: blue;
+
+    }
+
+.container {
+    padding: 5%;
+}
+
+.titrecc {
+    grid-column: 1/4;
+    grid-row: 1/1;
+    text-align: center;
+
+}
+
+.pt{
+    grid-column: 2/2;
+    grid-row: 2/2;
+    text-align:center
+}
+
+.st{
+    grid-column: 3/3;
+    grid-row: 2/2;
+    text-align:center
+}
+
+
+
+.ES{
+
+    grid-column: 1/1;
+    grid-row: 3/3;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+ 
+
+
+
+}
+.ES1{
+
+    grid-column: 2/2;
+    grid-row: 3/3;
+    text-align:center;
+    border-top: 1px solid black;
+  
+
+}
+
+
+.ES2 {
+
+    grid-column: 3/3;
+    grid-row: 3/3;
+    text-align:center;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+
+
+}
+
+.HG{
+
+    grid-column: 1/1;
+    grid-row: 4/4;
+    
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+
+
+}
+
+.HG1 {
+
+    grid-column 2/2;
+    grid-row: 4/4;
+    text-align:center;
+    border-top: 1px solid black;
+
+
+}
+
+.HG2 {
+
+    grid-column: 3/3;
+    grid-row: 4/4;
+    text-align:center;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+
+
+}
+ 
+.A{
+
+    grid-column: 1/1;
+    grid-row: 5/5;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+
+
+
+}
+
+.A1 {
+
+    grid-column 2/2;
+    grid-row: 5/5;
+    text-align:center;
+    border-top: 1px solid black;
+
+
+}
+
+.A2 {
+
+    grid-column: 3/3;
+    grid-row: 5/5;
+    text-align:center;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+
+
+}
+
+.E{
+
+    grid-column: 1/1;
+    grid-row: 6/6;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+
+
+
+
+}
+
+.E1 {
+
+    grid-column 2/2;
+    grid-row: 6/6;
+    text-align:center;
+    border-top: 1px solid black;
+
+ 
+
+}
+
+.E2 {
+
+    grid-column: 3/3;
+    grid-row: 6/6;
+    text-align:center;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+
+
+}
+
+
+
+.EPS{
+
+    grid-column: 1/1;
+    grid-row: 7/7;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+
+
+
+}
+
+.EPS1{
+
+    grid-column: 3/3;
+    grid-row: 7/7;
+    text-align:center;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+
+
+}
+
+.EMC {
+
+    grid-column: 1/1;
+    grid-row: 8/8;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+
+}
+.sep1 {
+    grid-column: 2/2;
+    grid-row: 7 /7;
+    border-top: 1px solid black;
+
+
+}
+.sep2 {
+    grid-column: 2/2;
+    grid-row: 8/8;
+    border-top: 1px solid black;
+
+
+}
+.sep3 {
+    grid-column: 3/3;
+    grid-row: 9/9;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+
+
+}
+.sep4 {
+    grid-column: 3/3;
+    grid-row: 10/10;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black ;
+
+}
+
+.EMC1{
+
+    grid-column: 3/3;
+    grid-row: 8/8;
+    text-align:center;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+
+
+}
+
+.spé{
+
+    grid-column: 1/1;
+    grid-row: 9/9;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+
+
+
+
+}
+.spé1{
+
+    grid-column: 2/2;
+    grid-row: 9/9;
+    text-align:center;
+    border-top: 1px solid black;
+
+
+
+}
+.M{
+
+    grid-column: 1/1;
+    grid-row: 10/10;
+    border: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+
+
+
+}
+.M1{
+
+    grid-column: 2/2;
+    grid-row: 10/10;
+    text-align:center;
+    border-top: 1px solid black;
+border-bottom: 1px solid black ;
+}
+.resultat1 {
+    grid-column: 1/1;
+    grid-row: 11/11;
+    text-align: center;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black ;
+}
+
+.resultat2{
+    grid-column: 2/4;
+    grid-row: 11/11;
+    text-align: center;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black ;
+}
+
+
+.epreuve {
+    grid-row: 1;
+    grid-column: 5/7;
+    text-align: center;
+
+
+}
+.FRE{
+    grid-column: 5/5;
+    grid-row: 3/3;
+    border: 1px solid black;;
+}
+
+.FR1 {
+    grid-column: 6/6;
+    grid-row: 3/3;
+    text-align: center;
+    border-top: 1px solid black;
+    border-right: 1px solid black;;
+    border-right: 1px solid black;;
+    border-bottom: 1px solid black;;
+    
+}
+.FRO{
+    grid-column: 5/5;
+    grid-row: 4/4;
+    border-left: 1px solid black;;
+    border-right: 1px solid black;;
+    border-bottom: 1px solid black;;
+
+}
+.FR2 {
+    grid-column: 6/6;
+    grid-row: 4/4;
+    text-align: center;
+    border-right: 1px solid black;;
+    border-right: 1px solid black;;
+    border-bottom: 1px solid black;;
+}
+
+.PHILO {
+    grid-column: 5/5;
+    grid-row: 5/5;
+    border-left: 1px solid black;;
+    border-right: 1px solid black;;
+    border-bottom: 1px solid black;;
+}
+
+.PHILO1 {
+    grid-column: 6 ;
+    grid-row: 5;
+    text-align: center;
+    border-right: 1px solid black;;
+    border-right: 1px solid black;;
+    border-bottom: 1px solid black;;
+
+}
+
+.GO {
+    grid-column: 5;
+    grid-row : 6;
+    border-left: 1px solid black;;
+    border-right: 1px solid black;;
+    border-bottom: 1px solid black;;
+}
+
+.GO1   {
+    grid-column: 6 ;
+    grid-row: 6;
+    text-align: center;
+    border-right: 1px solid black;;
+    border-right: 1px solid black;;
+    border-bottom: 1px solid black;;
+
+}
+
+.SPET1 {
+    grid-column: 5;
+    grid-row : 7;
+    border-left: 1px solid black;;
+    border-right: 1px solid black;;
+    border-bottom: 1px solid black;;
+}
+.SPE2 {
+    grid-column: 6;
+    grid-row: 7;
+    text-align: center;
+    border-right: 1px solid black;;
+    border-right: 1px solid black;;
+    border-bottom: 1px solid black;;
+}
+
+.SPET2 {
+    grid-column: 5;
+    grid-row : 8;
+    border-left: 1px solid black;;
+    border-right: 1px solid black;;
+    border-bottom: 1px solid black;;
+
+}
+
+.SPE3 {
+    grid-column: 6;
+    grid-row : 8;
+    text-align: center;
+    border-right: 1px solid black;;
+    border-right: 1px solid black;;
+    border-bottom: 1px solid black;;
+
+}
+.RE {
+    grid-column: 5;
+    grid-row : 9;
+    text-align: center;
+    border-right: 1px solid black;;
+    border-left: 1px solid black;;
+    border-bottom: 1px solid black;;
+}
+
+.résultatE {
+    grid-column: 6;
+    grid-row : 9;
+    text-align: center;
+    border-right: 1px solid black;;
+    border-right: 1px solid black;;
+    border-bottom: 1px solid black;;
+}
+
+.NB {
+    grid-column: 4;
+    grid-row: 13;
+    text-align: center;
+}
+.mention {
+    grid-column: 4;
+    grid-row: 14    ;
+    text-align: center;
+}
